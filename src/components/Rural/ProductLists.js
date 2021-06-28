@@ -15,47 +15,47 @@ const ProductLists = (props) => {
         {
             name: 'Terracotta Horse from Panchmura, Bengal',
             cost: 500,
-            image: '../../images/prod1.jpeg'
+            image: 'https://i.ibb.co/R9CLS8T/prod1.png'
         },
         {
             name: 'Jaapi from Khargulli, Assam',
             cost: 1000,
-            image: '../../images/prod2.jpeg'
+            image: 'https://i.ibb.co/z4yMFwn/prod2.png'
         },
         {
             name: 'Little Indian Elephant from Udaipur, Rajasthan',
             cost: 2450,
-            image: '../../images/prod3.jpeg'
+            image: 'https://i.ibb.co/LDKT6pQ/prod3.png'
         },
         {
             name: 'Krishna Stone Carving from Solur, Karnataka',
             cost: 2500,
-            image: '../../images/prod4.jpeg'
+            image: 'https://i.ibb.co/CwV3R8s/prod4.png'
         },
         {
             name: ' Wooden Kerala Boat from Vengoor, Kerala ',
             cost: 250,
-            image: '../../images/prod5.jpeg'
+            image: 'https://i.ibb.co/zb838vP/prod5.png'
         },
         {
             name: 'Coir and Cane Floor mats from Kollam, Kerala',
             cost: 250,
-            image: '../../images/prod6.jpeg'
+            image: 'https://i.ibb.co/sg1jbBP/prod6.png'
         },
         {
             name: 'Kathakali Mask from Kalady, Kerala',
             cost: 2450,
-            image: '../../images/prod7.jpeg'
+            image: 'https://i.ibb.co/bFD4nGg/prod7.png'
         },
         {
             name: 'Sandalwood War Elephant from Mysore, Karnataka',
             cost: 10000,
-            image: '../../images/prod8.jpeg'
+            image: 'https://i.ibb.co/vsQw7GS/prod8.png'
         },
         {
             name: 'Bamboo and Cane baskets from Birbhum, West Bengal',
             cost: 200,
-            image: '../../images/prod9.jpeg'
+            image: 'https://i.ibb.co/Z2qvbQj/prod9.png'
         }
     ])
     const fillProductsForVillage = (villageName) => {

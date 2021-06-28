@@ -11,12 +11,13 @@ const paypalSubscribe = (data, actions) => {
 const paypalOnError = (err) => {
     console.log("Error")
 }
-const paypalOnApprove = (data, detail) => {
+const paypalOnApprove = (data, details) => {
 // call the backend api to store transaction details
     console.log("Payapl approved")
     console.log(data.subscriptionID)
-    
-    Swal.fire('Subscription Successful!', 'Thank you for shopping with us!', 'success');
+    Swal.fire('Subscription Successful!', 'Thank you for shopping with us' +  "!\n Your Order ID is: " + data.orderID  +  ".\n Your Subscription ID is: " + data.subscriptionID + ".", 'success').then(function (result) { if (result.value) { window.location = "/"; } })
+              
+    //Swal.fire('Subscription Successful!', 'Thank you for shopping with us!', 'success');
     
 };
 function Subscription(props) {

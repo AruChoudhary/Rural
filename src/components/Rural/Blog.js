@@ -11,14 +11,6 @@ import FeaturedPost from './BlogDir/FeaturedPost';
 import Main from './BlogDir/Main';
 import Sidebar from './BlogDir/Sidebar';
 
-/*fetch(post1)
-  .then(response => response.text())
-  .then(text => {
-    // Logs a string of Markdown content.
-    // Now you could use e.g. <rexxars/react-markdown> to render it.
-    console.log(text);
-  });*/
-
 const useStyles = makeStyles((theme) => ({
   mainGrid: {
     marginTop: theme.spacing(3),
@@ -28,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
 const mainFeaturedPost = {
   title: 'SUPPORT THE MAKERS',
   description:
-    "When You support Handmade, You are not just supporting a Person, Small Business, Family,Our Economy; YOU are Purchasing a small part of an ARTIST's HEART.",
+    "When You Support Handmade, You Are Not Just Supporting a Person, Small Business, Family, Our Economy; YOU Are Purchasing a Small Part of an ARTIST'S HEART.",
   image: 'https://images.pexels.com/photos/3182439/pexels-photo-3182439.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
   imgText: 'main image description',
 };
@@ -46,7 +38,7 @@ const featuredPosts = [
     title: 'Warli',
     date: 'Nov 11',
     description:
-      'One art form that has gained visibility over the years is Warli. There is evidence that the Warli tribe, which resides in the coastal belt straddling Maharashtra and Gujarat, began practising this art around 3000 BCE. Warli is protected under Geographical Indication, a measure used to assign a technique to a particular region',
+      'One art form that has gained visibility over the years is Warli. There is evidence that the Warli tribe, which resides in the coastal belt straddling Maharashtra and Gujarat, began practising this art around 3000 BCE. Warli is protected under Geographical Indication, a measure used to assign a technique to a particular region.',
     image: 'https://images.unsplash.com/photo-1621870536986-151d03e2e99a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2FybGl8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
     
   },
